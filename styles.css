@@ -140,6 +140,12 @@ a{
   .hero-section-right{
     position: relative;
   }
+  .hero-section-right img {
+  width: 100%;
+  max-width: 400px;   /* adjust this to the size you want */
+  height: auto;
+  object-fit: cover;  /* prevents stretching */
+}
   .absolute{
     position:absolute;
   }
