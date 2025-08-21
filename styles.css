@@ -283,6 +283,7 @@ a{
     width:90%;
     height:550px;
     background-image:url(./images/projects/DistributedSocialNetworking.png);
+    /* background-position: center; */
     background-size:cover;
     background-repeat:no-repeat;
     position:relative;
@@ -393,14 +394,17 @@ a{
  transform:scale(1.1);   
 }
 #project1{
-    background-image:url(./images/projects/Project1.png)
+    background-image:url(./images/projects/DistributedSocialNetworking.png)
 }
 #project2{
     margin-left:120px;
-    background-image:url(./images/projects/Project2.png)
+    background-image:url(./images/projects/CommunityEventOrganizer.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: repeat;
 }
 #project3{
-    background-image:url(./images/projects/Project3.png)
+    background-image:url(./images/projects/ollamaProject.png)
 }
 #project4{
     margin-left:120px;
