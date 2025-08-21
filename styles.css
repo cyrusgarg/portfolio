@@ -394,7 +394,10 @@ a{
  transform:scale(1.1);   
 }
 #project1{
-    background-image:url(./images/projects/DistributedSocialNetworking.png)
+    background-image:url(./images/projects/DistributedSocialNetworking.png);
+    background-position: center;
+    background-size:cover;
+    
 }
 #project2{
     margin-left:120px;
@@ -404,11 +407,17 @@ a{
     background-repeat: repeat;
 }
 #project3{
-    background-image:url(./images/projects/ollamaProject.png)
+    background-image:url(./images/projects/ollamaProject.png);
+    background-position: center;
+    background-size:cover;
+    
 }
 #project4{
     margin-left:120px;
-    background-image:url(./images/projects/Project4.png)
+    background-image:url(./images/projects/Project4.png);
+    background-position: center;
+    background-size:cover;
+    
 }
 .skills-container{
     position:relative;
@@ -697,6 +706,7 @@ footer{
     width: 100%;
     height: clamp(300px, 40vw, 520px);
     background-position: center center;
+    background: rgba(0,0,0,0.6);
   }
   .project-content{
     padding: clamp(1rem, 3vw, 2rem);
@@ -730,6 +740,7 @@ footer{
     background-position: center center;
     margin-left: 0 !important;   /* cancel the staggered offsets */
     position: relative;
+    background: rgba(0,0,0,0.6);
   }
 
   /* Stronger dark overlay with bottom gradient for text */
@@ -797,6 +808,7 @@ footer{
     height: clamp(280px, 62vw, 460px);
     background-position: center center;
     position: relative;
+    background: rgba(0,0,0,0.6);
   }
 
   /* Stronger dark overlay with a bottom-heavy gradient for text contrast */
